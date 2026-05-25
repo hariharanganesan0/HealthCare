@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Appointment Form</title>
+</head>
+
+<body>
+
+<h1>Appointment Form</h1>
+
+<form>
+
+<label>Patient Name</label>
+<br>
+<input type="text" placeholder="Enter Patient Name">
+
+<br><br>
+
+<label>Doctor Name</label>
+<br>
+
+<select>
+
+<option>Select Doctor</option>
+<option>Dr. Kumar</option>
+<option>Dr. Raj</option>
+<option>Dr. Priya</option>
+
+</select>
+
+<br><br>
+
+<label>Appointment Date</label>
+<br>
+<input type="date">
+
+<br><br>
+
+<label>Appointment Time</label>
+<br>
+<input type="time">
+
+<br><br>
+
+<label>Reason for Appointment</label>
+<br>
+
+<textarea rows="4" cols="30" placeholder="Enter Reason"></textarea>
+
+<br><br>
+
+<button type="submit">Submit</button>
+
+<button type="reset">Reset</button>
+
+</form>
+
+</body>
+
+</html>
